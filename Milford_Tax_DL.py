@@ -13,6 +13,7 @@ while int(lotnum)<=uplim:
     lotnum=int(lotnum)+1
     intlen=0
     while intlen < 3:
-        intlen=math.ceil(math.log(int(lotnum), 10))
+        lotnum=str(lotnum)
+        lotnumlen = len(lotnum)
         lotnum='0{}'.format(lotnum)
     
